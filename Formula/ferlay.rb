@@ -4,6 +4,8 @@ class Ferlay < Formula
   version "0.1.1"
   license "MIT"
 
+  deprecate! date: "2026-08-27", because: "is superseded by Claude Code's built-in remote control"
+
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/y0sif/ferlay/releases/download/v#{version}/ferlay-daemon-macos-aarch64.tar.gz"
