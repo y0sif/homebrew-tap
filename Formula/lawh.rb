@@ -5,21 +5,21 @@ class Lawh < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/y0sif/lawh/releases/download/v0.1.0/lawh-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "702ad9f7a7632d1606b4635f1d000df0899dcaf94831b27c57849518154814fe"
+      url "https://github.com/y0sif/lawh/releases/download/v0.1.1/lawh-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "b50e21a98ff6a08453a2cd224a2219c4f16bfc058a5c210ebc613c81a6845c82"
     else
-      url "https://github.com/y0sif/lawh/releases/download/v0.1.0/lawh-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9a4ad5278ab709ad1c479c31ea56b4c6ca69f2d95071e1da6319dc4ed7d8c4a8"
+      url "https://github.com/y0sif/lawh/releases/download/v0.1.1/lawh-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "a5f7a968e0fd766b35b1dfbca8c20593202cda0febc3a11c0fb782a7f7be2ca2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/y0sif/lawh/releases/download/v0.1.0/lawh-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f12ed944f736bfb30160e5311ab48fa495ec5a6b4012408406e9f6af598a62e2"
+      url "https://github.com/y0sif/lawh/releases/download/v0.1.1/lawh-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "24f8e278b03a0151392ecfc49c3fd180e558de876e30120b4ef1f769503a3e7f"
     else
-      url "https://github.com/y0sif/lawh/releases/download/v0.1.0/lawh-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e65c4e7482e71f45ade02aa4a457b0ebae02cebf4839b3f628b70fbc5de66f25"
+      url "https://github.com/y0sif/lawh/releases/download/v0.1.1/lawh-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c646cbd994cfae8dc7b917f1c083922225779600e95d12fc54d39dacf47cc833"
     end
   end
 
